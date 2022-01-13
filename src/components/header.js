@@ -1,18 +1,16 @@
-import * as React from "react";
-import PropTypes from "prop-types";
+import React from "react";
 import {Link} from "gatsby";
-import { Container, Navbar, Nav, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
+import { Container, Navbar, Nav, Button } from "react-bootstrap";
 
-export default (props) => (
+const Header = () => (
     <Navbar bg="light" expand="lg">
   <Container>
-    <Navbar.Brand href="#home">{siteTitle}</Navbar.Brand>
+    <Navbar.Brand href="#home">Home</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link as ={Link} to="/">Home
-          </Nav.Link>
-          <Nav.Link> as ={Link} to="/about">About us
+        <Nav.Link as ={Link} to="/">Home </Nav.Link>
+          <Nav.Link as ={Link} to="/about">About us
           </Nav.Link>
           <Nav.Link as ={Link} to="/contact">Contact Us
           </Nav.Link>
@@ -21,14 +19,6 @@ export default (props) => (
   </Container>
 </Navbar>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 
 export default Header
