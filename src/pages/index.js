@@ -1,14 +1,13 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import Footer from "../components/Footer"
+import Layout from "../components/layout";
+import Seo from "../components/seo";
+import Footer from "../components/Footer";
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="VerdaPress" />
     <h1>Welcome to the  VerdaPress Gatsby site.</h1>
     <p>Now go build something great [vp].</p>
     <StaticImage
@@ -20,7 +19,7 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
+      <Link to="/page-2/">Go to Post Page</Link> <br />
     </p>
     <Footer></Footer>
   </Layout>

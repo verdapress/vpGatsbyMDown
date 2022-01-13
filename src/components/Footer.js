@@ -1,10 +1,10 @@
 import React from "react"
 
 const Footer = () => (
-  <footer>
+
     <div className="Container">
-        <span className="text-muted">Here is the footer</span>
+        <span className="text-muted">&copy; VerdaPress 2022</span>
     </div>
-  </footer>
+
 )
 export default Footer;

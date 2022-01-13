@@ -2,7 +2,7 @@ import React from "react";
 import {Card, Button} from "react-bootstrap";
 import { StaticImage } from "gatsby-plugin-image";
 
-const Post = () =>(
+const Post = (props) =>(
     <Card>
   <Card.Img variant="top"></Card.Img> <StaticImage
       src="../images/vpLogo.png"
@@ -10,12 +10,11 @@ const Post = () =>(
       height={50}
     />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title>{props.title}</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      {props.excerpt}
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    <Button variant="primary">{props.title}</Button>
   </Card.Body>
 </Card>
 );
