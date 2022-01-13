@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `VerdaPress Gatsby Starter`,
+    title: `VerdaPress Gatsby Workbench`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,

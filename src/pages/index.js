@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +22,7 @@ const IndexPage = () => (
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
     </p>
+    <Footer></Footer>
   </Layout>
 )
 
