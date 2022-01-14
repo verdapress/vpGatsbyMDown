@@ -17,6 +17,18 @@ const SecondPage = () => (
     <Post title="VerdaPress Post Title" excerpt = "This is the Excerpt text that appears in the body">
 </Post>
     </div>
+    <br />
+    <div className="Container">
+    <Post title="VerdaPress Post Title2" excerpt = "This is the Excerpt text that appears in the body2">
+</Post>
+</div>
+<br />
+<div className="Container">
+    <Post title="VerdaPress Post Title3" excerpt = "This is the Excerpt text that appears in the body3">
+</Post>
+    
+    </div>
+    <br />
     <Footer></Footer>
   </Layout>
 )

@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 
 const About = () => (
   <Layout>
-    <h1>ABOUT US</h1>
+    <h1>About Us</h1>
     <p>
       <Link to="/page-2/">Go to Post Page</Link> <br />
     </p>
