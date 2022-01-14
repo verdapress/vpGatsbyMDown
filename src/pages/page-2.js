@@ -4,9 +4,13 @@ import Post from "../components/Post";
 import Layout from "../components/layout"
 import Footer from "../components/Footer"
 
-export default ({ data }) => {
+export default  ({ data }) => {
   console.log(data)
   return (
+    <Layout>
+    <h1>Welcome to the  VerdaPress Blog Page.</h1>
+    <p>Built with MarkDown [vp].</p>
+    <p>
     <div>
       {data.allMarkdownRemark.nodes.map(node => (
         <Post
@@ -14,10 +18,15 @@ export default ({ data }) => {
           excerpt={node.excerpt}
         />
       ))}
+
     </div>
+    </p>
+    <Footer></Footer>
+  </Layout>
+    
+
   )
 }
-
 
 export const query = graphql ` 
 {
