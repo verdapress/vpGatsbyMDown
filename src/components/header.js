@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "gatsby";
-import { Container, Navbar, Nav, Button } from "react-bootstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
 
 const Header = () => (
     <Navbar bg="light" expand="lg">
